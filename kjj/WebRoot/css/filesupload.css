@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ padding:0px; margin:0px; font-family:"微软雅黑";}
+.bg1{ margin:0px; padding:0px; height:70px; width:100%; background-color:#FAF3E1;}
+img{ margin-top:5px; margin-left:35px; padding:0px;}
+.bg2{ margin:0px; padding:0px; width:100%; height:30px; background-color:#FAE06F; font-size:20px;}
+p{ margin:0px; padding: 3px 0px 0px 46px; letter-spacing:5px;}
+span{ color: #8E8693;}
+.clearbox{ height:30px; width:100%;}
+#container{ width:92%; margin:0 auto; }
+
+ul{ list-style-type:none; margin:0px; padding:0px; text-align:left; overflow:hidden; font-size:16px;}
+.tab_menu{ border-bottom:1px #E5BD70 solid;}
+.tab_menu li{ float:left; margin-left:20px; cursor:pointer; line-height:30px;  padding:0 25px;}
+.tab_menu li.current{background-color:#F5E8CD; border:1px #E5BD70 solid; border-bottom:none;}
+
+.tab_box form{ margin-top:10px; margin-bottom:20px;}
+label{ font-size:16px;}
+textarea{ overflow-y: auto; width:75%; margin-bottom:10px;border:1px #E5BD70 solid;  resize:none;}
+.select{ font-family:"微软雅黑";border:1px #E5BD70 solid; height:22px; margin-right:50px; margin-left:30px;width:100px;}
+
+.input{ margin:5px 0px;;height:20px; width:400px; padding-top:5px; border:1px #E5BD70 solid; margin-right:20px;}
+.button{border:1px #E5BD70 solid; font-family:"微软雅黑"; font-size:14px;color:#000; background-color:#F5E8CD; width:60px; height:23px; margin-right:15px; padding-bottom:2px; text-align:center; margin-top:15px;}
+
+.tab_box .hide{display:none;}
+
+#grid{width:100%; border:1px #E5BD70 solid;border-collapse:collapse; text-align:center; font-size:14px; margin-top:15px;}
+#grid tr{height:32px; border:1px #E5BD70 solid;color: #000;}
+#grid td{height:32px; border:1px #E5BD70 solid;color: #000;}
+.title th{height:25px; border:1px #E5BD70 solid;color:#000; background:#F5E8CD;font-size:15px;}
+#grid a{ text-decoration:none; color: #D59726;font-weight:bold;}
+#grid a:hover{ color:red; position:relative; top:1px; right:1px; font-weight:normal;}
+.button{border:1px #E5BD70 solid; font-family:"微软雅黑"; font-size:14px;color:#000; background-color:#F5E8CD; width:45px; height:23px; margin-right:15px; padding-bottom:2px; text-align:center;}
+
+.part2{ margin:0 auto; width:30%; margin-bottom:20px;}
+.part2 a{border:1px #E5BD70 solid; margin-right:2px; padding:1px 5px; text-decoration:none; color:#000; font-size:12px;}
+.part2 a:hover{background-color:#F5E8CD; position:relative; top:1px; right:1px; color:red;}
+
+
+
+
+
+
+
+
+

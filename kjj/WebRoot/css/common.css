@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+/*通用设置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,label  
+blockquote,th,td {margin:0; padding:0; }  
+table { border-collapse:collapse; border-spacing:0; }  
+fieldset,img { border:0; }  
+caption,code,dfn,th{ font-style:normal; font-weight:normal; }  
+ol,ul { list-style:none; }  
+caption,th { text-align:left; }  
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; } 
+input{ background-color:transparent; border:1px solid #ccc; font-size:12px;}
+input .text{ font-size:12px; }
+.btn{font-size:12px; padding:0px 5px;background:url(../images/buju_11.gif) repeat-x;} 
+.left{ text-align:left;}
+.title{background:url(../images/buju_11.gif) repeat-x; height:20px; line-height:20px; font-weight:bold; font-size:14px;}
+.choses{  margin-bottom:10px;}
+body{
+	font-family:"雅黑";
+	font-size:12px;
+}
+label{ font-size:14px; font-weight:bold;}
+a:link,a:visited{ text-decoration:none; color:red;}
+a:hover,a:actived{ text-decoration:underline; color:black; left:0px; top:0px;}
+/*leftnav*/
+body,html{ height:100%;}
+/*body*/
+#container{ margin:0px auto; width:92%;}
+.clear{ margin-bottom:20px; width:100%;clear:both;}
+
+/*菜单个性设置*/
+.box{width:240px;height:100%;background-color:#eee; border-right:3px solid #56575b;}
+.box ul{list-style:none;text-align:left;}
+
+
+/*css black2 分页效果*/
+div.black2{padding:7px;margin:3px;text-align:center;}
+div.black2 a{border:#E3E3E3 1px solid;padding:2px 5px;margin:2px;color:#000000;text-decoration:none;}
+div.black2 a:hover{border:#E3E3E3 1px solid;color:#fff;background-color:#000;}
+div.black2 a:active{border:#E3E3E3 1px solid;color:#fff;background-color:#000;}
+div.black2 span.current{border:#E3E3E3 1px solid;padding:2px 5px;font-weight:bold;margin:2px;color:#fff;background-color:#000000;}
+div.black2 span.disabled{border:#ccc 1px solid;padding:2px 5px;margin:2px;color:#ddd;}
+
+
+/*一级菜单*/
+.menu li.level1 a{ font-weight:bold; font-size:14px;display:block;line-height:41px;height:41px;padding-left:10px;color:#2657aa;background: url(../images/buju_04-06.gif) no-repeat left top; border-bottom:1px solid #ccc;}
+/*一级菜单两态样式,供JS调用*/
+.menu li.level1 a.hove{background-position:left -41px;  color:#56575b; font-weight:bold; border-top:1px solid #fff;}
+.menu li.level1 a.cur{background-position:left -82px; color:#000; border-bottom:1px solid #ccc;font-weight:bold;}
+
+/*二级菜单*/
+.menu li ul{overflow:hidden;}
+.menu li ul.level2{display:none; width:240px;}
+.menu li ul.level2 li{height:35px;line-height:35px;}
+.menu li ul.level2 li a{font-size:13px;display:block;height:35px;line-height:35px;background:#ececec ;padding-left:10px;color:#42556B;overflow:hidden;}
+/*二级菜单两态样式,供JS调用*/
+.menu li ul.level2 li a.hove1{background:#F5F5F5; border-top:1px solid #ccc; font-size:14px; color:#292727; font-weight:bold;}
+/*leftnav*/
+
+/*table*/
+.datalist{
+	width:100%;
+	border:1px solid #0058a3;	/* 表格边框 */
+	border-collapse:collapse;	/* 边框重叠 */
+	background-color:#eaf5ff;	/* 表格背景色 */
+	font-size:12px;
+	text-align:center; 
+}
+.datalist caption{
+	height:20px; overflow:hidden;
+	background:url(../images/buju_11.gif) repeat-x;
+	font-size:14px;font-weight:bold;color:#292727;
+	text-align:left; padding-top:10px; padding-left:15px;
+	border:#E3E3E3 1px solid; border-bottom:#f5f5f5 1px solid;
+}
+.datalist th{
+	border:#E3E3E3 1px solid;	/* 行名称边框 */
+    background-color:#F5F5F5;	/* 行名称背景色 */
+	color:#686868;				/* 行名称颜色 */
+	font-weight:bold;
+	padding-top:4px; padding-bottom:4px;
+	padding-left:12px; padding-right:12px;
+	text-align:center;
+	font-size:14px;
+}
+.datalist td{
+	border:#E3E3E3 1px solid;	/* 单元格边框 */
+	padding-top:4px; padding-bottom:4px;
+	padding-left:10px; padding-right:10px;
+	background-color:#fff;
+    height:30px;
+	color:#888a90;
+}
+.datalist a:link,.datalist a:visited{
+	color:red;
+	text-decoration:none;	
+	padding-right:10px; 
+
+}
+.datalist a:hover{
+	color:#292727;
+	text-decoration:underline;
+}
